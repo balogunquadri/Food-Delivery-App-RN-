@@ -4,19 +4,19 @@ export const categories = [
     img: require('@/assets/data/c1.png'),
   },
   {
-    text: 'Grocery',
+    text: 'Marts',
     img: require('@/assets/data/c2.png'),
   },
   {
-    text: 'Offers',
+    text: 'Deals',
     img: require('@/assets/data/c3.png'),
   },
   {
-    text: 'Pickup',
+    text: 'Delivery',
     img: require('@/assets/data/c4.png'),
   },
   {
-    text: 'HOP',
+    text: 'Lounges',
     img: require('@/assets/data/c5.png'),
   },
   {

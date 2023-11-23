@@ -11,7 +11,7 @@ const SearchBar = () => (
     <View style={styles.searchSection}>
       <View style={styles.searchField}>
         <Ionicons style={styles.searchIcon} name="ios-search" size={20} color={Colors.medium} />
-        <TextInput style={styles.input} placeholder="Restaurants, Foods, Deliveries" />
+        <TextInput style={styles.input} placeholder="Restaurants, Marts, Deliveries" />
       </View>
       <Link href={'/(modal)/filter'} asChild>
         <TouchableOpacity style={styles.optionButton}>
@@ -106,6 +106,7 @@ const styles = StyleSheet.create({
   },
   searchField: {
     flex: 1,
+    
     backgroundColor: Colors.lightGrey,
     borderRadius: 8,
     flexDirection: 'row',

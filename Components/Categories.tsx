@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
   categoryCard: {
     width: 100,
     height: 100,
+    paddingTop: 20,
     backgroundColor: '#fff',
     marginEnd: 10,
     elevation: 2,
